@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  :root{
+    --primary-color: #FFFFFF;
+    --shade-colour: #00878e;
+  }
+
+.container{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/woman.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 30px 0px;
+ 
+}
+.navsec{
+    display: flex;
+    gap: 30px; 
+}
+.navsec img{
+  width: 150px;
+  height: 60px;
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-right: 180px;
+}
+
+ 
+  .navbar, a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .navbar a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--shade-colour);
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    bottom: -9px;
+  }
+  .navbar a:hover{
+    font-weight: 700;
+    color: var(--shade-colour);
+  }
+  .navbar a:hover::before{
+    width: 100%;
+  }
+  .navbar a.active::before{
+    width: 100%;
+  }
+  button{
+    padding: 5px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+.butn{
+    margin-left: 200px;
+  }
+  #login{
+  border-top-left-radius: 20px;
+  background: linear-gradient(to right, var(--primary-color) 10%, var(--shade-colour) );
+  }
+  #signup{
+    border-top-right-radius: 20px;
+    color: white;
+   
+  }
+#login:hover{
+  color: white;
+}
+#signup:hover{
+  background: linear-gradient(to right, var(--shade-colour) 10%, var(--primary-color));
+  color: black;
+}
+.lore{
+    margin-top: 25px;
+}
+ hr{
+  width: 349px;
+ }
+.hero{
+    margin-top: 170px;
+    padding: 20px;
+    width: 600px;
+    margin-left: 150px;
+}
