@@ -29,7 +29,7 @@
     border-bottom: 5px solid var(--primary-color);
     color: var(--primary-color);
     padding: 30px 0px;
- 
+    width: 100%;
 }
 .navsec{
     display: flex;
@@ -111,7 +111,7 @@
 .lore{
     margin-top: 25px;
 }
- hr{
+ .nav-line {
   width: 349px;
  }
 .hero{
@@ -175,7 +175,7 @@
 .features{
   display: flex;
   margin-bottom: 90px;
-  width: 1100px;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -218,11 +218,10 @@ margin: 15px 0px;
 }
 .hand-section{
   display: flex;
-  gap: 0px;
-  padding: 0px 120px;
   background-color: #E7E7E7;
   position: relative;
-  height: 350px;
+  height: 380px;
+  width: 100%;
  
 }
 .horz{
@@ -236,15 +235,14 @@ margin: 15px 0px;
   
 }
 .hand-section-phone{
-  width: 750px;
   height: 450px;
   padding-right: 100px;
 
 }
 .hand-section .hand-section-phone{
  position: absolute;
- top: -100px;
- left: 600px;
+ top: -70px;
+ left: 650px;
 }
 .hand-button{
   padding: 5px;
@@ -252,7 +250,7 @@ margin: 15px 0px;
   height: 35px;
   margin: 20px 0px;
   color: var(--primary-color);
-  background: linear-gradient( to right, var(--black) 10%, var(--primary-color));
+  background: var(--black);
   font-weight: 600;
   border-radius: 15px;
   cursor: pointer;
@@ -269,3 +267,40 @@ border-radius: 15px;
 cursor: pointer;
 transition: var(--transition-two);
 }
+.brands{
+  width: 800px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.brands i{
+  font-size: 40px;
+  justify-content: space-between;
+  color: var(--shade-colour);
+  cursor: pointer;
+}
+
+.brands i:hover{
+  transform: scale(1.8);
+/* }
+.shade-section{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 50px;
+  background: linear-gradient(var(--shade-colour)2%, var(--primary-color) );
+}
+.fa-brands{
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+.shade-hr{
+  width: 25px;
+  height: 0px;
+  color: white;
+ 
+} */
+
