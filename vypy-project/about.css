@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+height: 48vh;
+background-image: linear-gradient(
+    rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/woman.jpg);
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+.about-hero{
+    margin-top: -12px;
+    height: 70vh;
+    background-color: #00878e;
+}
+.about-hero-contents{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    padding: 30px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.about-hero-contents img{
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 0 0 16px black;
+}
+.about-hero-contents img:hover{
+    transform: translateY(-10px);  
+}
+.detail{
+    width: 40%;
+}
+.detail h5, h1, p{
+    margin-bottom: 10px;
+}
+.detail button{
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    margin-right: 10px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+}
+.detail button:hover{
+    background-color: white;
+    color: black;
+    transform: translateX(-10px);
+    box-shadow: 0 0 16px black;
+}

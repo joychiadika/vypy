@@ -98,8 +98,8 @@
   }
   #signup{
     border-top-right-radius: 20px;
-    color: white;
-   
+    color: white; 
+
   }
 #login:hover{
   color: var(--black);
@@ -151,6 +151,9 @@
   background: var(--shade-colour);
   position: relative;
   
+}
+.line a{
+  text-decoration: none;
 }
 .line i{
   color: var(--primary-color);
@@ -362,6 +365,9 @@ text-decoration: none;
   color: var(--primary-color);
   margin-left: auto;
   margin-right: auto;
+}
+.f-line a{
+  text-decoration: none;
 }
 .ico{
   width: 25px;
