@@ -19,8 +19,8 @@ background-image: linear-gradient(
 }
 .about-hero{
     margin-top: -12px;
-    height: 70vh;
-    background-color: #00878e;
+    height: 90vh;
+    background-color: 0b0b0b#;
 }
 .about-hero-contents{
     display: flex;
@@ -30,6 +30,7 @@ background-image: linear-gradient(
     padding: 30px 100px;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .about-hero-contents img{
     width: 80%;
@@ -50,7 +51,7 @@ background-image: linear-gradient(
     width: 130px;
     height: 35px;
     margin-right: 10px;
-    background: black;
+    background: #00878e;
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -63,4 +64,43 @@ background-image: linear-gradient(
     color: black;
     transform: translateX(-10px);
     box-shadow: 0 0 16px black;
+}
+.skill{
+    display: flex;
+    gap: 100px;
+    padding: 0 60px;
+    width: 100%;
+    background-color: #0b0b0b;
+    color: white;
+}
+.skill-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 30px;
+}
+.skill-text h2, p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.indicator{
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.Skill-set{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.year-fig h1{
+    font-size: 50px;
 }

@@ -20,7 +20,9 @@
     --transition-one: all 0.5s ease-in-out;
     --transition-two: all 0.7s ease-in-out;
   }
-
+body{
+  background-color: #0b0b0b;
+}
 .container{
   background-image: linear-gradient(
     rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/woman.jpg);
@@ -94,7 +96,8 @@
   }
   #login{
   border-top-left-radius: 20px;
-  background: linear-gradient(to right, var(--primary-color) 10%, #86dfe4);
+  background:  linear-gradient(to right,  var(--shade-colour)2%, #0b0b0b);
+  color: white;
   }
   #signup{
     border-top-right-radius: 20px;
@@ -126,7 +129,8 @@
     width: 150px;
     height: 35px;
     margin: 20px 0px;
-    background: linear-gradient( to right, var(--shade-colour) 10%, #86dfe4);
+    background:  linear-gradient( to right, var(--shade-colour)2%, #0b0b0b);
+    color: white;
     font-weight: 600;
     border: 2px solid white;
     border-radius: 15px;
@@ -178,10 +182,11 @@
 
 .features{
   display: flex;
-  margin-bottom: 90px;
+  margin-bottom: 0px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
+  background-color: #0b0b0b;
 }
 .feature{
  margin-top: 50px;
@@ -191,7 +196,7 @@
  width: 360px;
 }
 .image-bg{
-  background: linear-gradient( var(--shade-colour)2%, #86dfe4);
+  background: linear-gradient( var(--shade-colour)2%, #0b0b0b);
   width: 70px;
   height:70px;
   border-radius: 50%;
@@ -203,27 +208,30 @@
   font-size: 30px;
 }
 h4{
-color: var(--shade-colour);
+color: white;
 margin: 25px 0px 0px 0px;
 text-transform: uppercase;
 }
 .feature p{
-color: var(--shade-colour);
+color: white;
 margin: 15px 0px;
 }
 .feature a{
   cursor: pointer;
   font-weight: 700;
+  font-size: 20px;
   text-transform: capitalize;
-  color: var(--choc-colour);
+  color:  var(--shade-colour);
 }
 .feature a:hover{
   transition: var(--transition-one);
   opacity: 0.5;
 }
 .hand-section{
+  margin-top: 180px;
   display: flex;
-  background-color: #E7E7E7;
+  background-color: #0b0b0b;
+  color: white;
   position: relative;
   height: 380px;
   width: 100%;
@@ -254,8 +262,8 @@ margin: 15px 0px;
   width: 150px;
   height: 35px;
   margin: 20px 0px;
-  color: var(--primary-color);
-  background: var(--black);
+  color: var(#0b0b0b);
+  background: var(--primary-color);
   font-weight: 600;
   border-radius: 15px;
   cursor: pointer;
@@ -284,7 +292,7 @@ transition: var(--transition-two);
 }
 .brands i{
   font-size: 45px;
-  color: var(--shade-colour);
+  color: var(--primary-color);
   cursor: pointer;
   
 }
@@ -306,7 +314,7 @@ transition: var(--transition-two);
 }
 .higher-footer{
  height: 200px;
- background: linear-gradient( to right, var(--shade-colour), #86dfe4 99% );
+ background:  linear-gradient( var(--shade-colour)2%, #0b0b0b);
  padding: 50px 0;
  align-items: center;
 
@@ -362,7 +370,7 @@ text-decoration: none;
   
 }
 .f-line i{
-  color: var(--primary-color);
+  color: var(--shade-colour);
   margin-left: auto;
   margin-right: auto;
 }
