@@ -5,22 +5,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #0b0b0b;
+}
 .container{
 height: 48vh;
-background-image: linear-gradient(
-    rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/woman.jpg);
+background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/woman.jpg);
 }
 .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px auto;
+    margin-top: -10px;
 }
 .about-hero{
     margin-top: -12px;
-    height: 90vh;
-    background-color: 0b0b0b#;
+    height: 100vh;
+    background-color: #0b0b0b;
 }
 .about-hero-contents{
     display: flex;
@@ -85,9 +87,49 @@ background-image: linear-gradient(
 }
 .indicator{
     height: 3px;
-    background-color: white;
+    background: rgba(255, 255, 255, .4);
     border-radius: 2px;
     margin-bottom: 15px;
+    position: relative;
+}
+#indicator1::before{
+        content: "";
+        width: 85%;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        transition: var(--transition-one);
+        border-radius: 2px;
+        bottom: 0;
+}
+.one{
+margin-right: 70px;
+}
+#indicator2::before{
+    content: "";
+    width: 90%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    transition: var(--transition-one);
+    border-radius: 2px;
+    bottom: 0;
+}
+.two{
+    margin-right: 51px;
+}
+#indicator3::before{
+        content: "";
+        width: 77%;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        transition: var(--transition-one);
+        border-radius: 2px;
+        bottom: 0;
+}
+.three{
+    margin-right: 119px;
 }
 .Skill-set{
     display: flex;

@@ -73,6 +73,7 @@ body{
     font-weight: 700;
     color: var(--shade-colour);
     transition: var(--transition-one);
+    transform: translateY(-10px);  
   }
   .navbar a:hover::before{
     width: 100%;
@@ -107,10 +108,12 @@ body{
 #login:hover{
   color: var(--black);
   background: #86dfe4;
+  transform: translateY(-10px);  
 }
 #signup:hover{
   background: linear-gradient(to right, var(--shade-colour) 10%, #86dfe4);
   color: black;
+  transform: translateY(-10px);  
 }
 .lore{
     margin-top: 25px;
@@ -148,6 +151,7 @@ body{
   border-radius: 15px;
   cursor: pointer;
   transition: var(--transition-two);
+  transform: translateY(-10px);  
 }
 .line{
   margin-top: -12px;
@@ -279,6 +283,7 @@ font-weight: 600;
 border-radius: 15px;
 cursor: pointer;
 transition: var(--transition-two);
+transform: translateY(-10px);  
 }
 .brands{
   width: 900px;
@@ -314,7 +319,7 @@ transition: var(--transition-two);
 }
 .higher-footer{
  height: 200px;
- background:  linear-gradient( var(--shade-colour)2%, #0b0b0b);
+ background: linear-gradient( var(--shade-colour)2%, #0b0b0b);
  padding: 50px 0;
  align-items: center;
 
