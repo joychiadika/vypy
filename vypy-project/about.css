@@ -21,7 +21,7 @@ background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(im
 }
 .about-hero{
     margin-top: -12px;
-    height: 100vh;
+    height: 90vh;
     background-color: #0b0b0b;
 }
 .about-hero-contents{
@@ -145,4 +145,81 @@ margin-right: 70px;
 }
 .year-fig h1{
     font-size: 50px;
+}
+.image-box{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagebox-cover{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.3)), url(https://www.nationaldefensemagazine.org/-/media/sites/magazine/2022/12/smartshooter-smash-2000l-rgb.jpg);
+    height: 380px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagebox-content{
+    display: grid;
+    place-items: center;
+    color: white;
+    gap: 15px;
+    padding-top: 90px;
+}
+.imagebox-content button{
+    width: 120px;
+    border-radius: 50px;
+    height: 40px;
+    color: black;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 80px;
+    padding: 0 70px;
+    color: white;
+}
+.foot-content{
+    width: 340px;
+}
+.foot-content p{
+color: white;
+}
+.foot-content img{
+    width: 100px;
+    height: 38px;
+}
+.foot-one{
+    width: 300px;
+}
+.foot-one a{
+    text-decoration: none;
+    color: white;
+}
+.links-social{
+    display: flex;
+    gap: 15px;
+}
+.links-social i:hover{
+    color: #00878e;
+    transition: all .9s ease-in-out;
+    font-size: 32px;
+}
+.foot-one h4{
+    margin-bottom: 10px;
+}
+.foot-two-details{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.two-details{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
