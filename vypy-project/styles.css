@@ -26,7 +26,7 @@ body{
 .container{
   background-image: linear-gradient(
     rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/woman.jpg);
-    height: 100vh;
+    height: 80vh;
     background-repeat: no-repeat;
     border-bottom: 5px solid var(--primary-color);
     color: var(--primary-color);
@@ -126,6 +126,10 @@ body{
     padding: 1.25rem;
     width: 37.5rem;
     margin-left: 9.375rem;
+}
+.hero h1{
+  font-size: 56px;
+  text-transform: uppercase;
 }
 .hero .hero-button{
     padding: 5px;
@@ -239,7 +243,6 @@ margin:0.938rem 0px;
   position: relative;
   height: 23.75rem;
   width: 100%;
- 
 }
 .horz{
   margin: 10px 0px 0px 0px;
@@ -421,6 +424,34 @@ body{
     align-items: center;
     gap: 0.625rem; 
 }
+.brands{
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  padding: 3rem 0;
+  /* margin-top: 2.5rem;
+  margin-left: 20.625rem;
+  margin-right: auto;
+  margin-bottom: 2.5rem; */
+  gap: 3.125rem;
+  
+}
+.handy{
+  width: 25rem;
+  margin-top: 6.25rem;
+  margin-left: 6.875rem;
+  
+}
+.hand-section-phone{
+  height: 28.125rem;
+  padding-right: 2.25rem;
+}
+.hand-section .hand-section-phone{
+  position: absolute;
+  top: -4.375rem;
+  left: 20.625rem;
+ }
+
   .navbar a{
     margin-right: 0.625rem;
     text-decoration: none;
