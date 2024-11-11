@@ -522,7 +522,310 @@ body{
 
 @media (max-width: 768px) {
   /* Styles go here*/
+  body{
+    margin: 0px;
+  }
+.navsec{
+  display: flex;
+  gap: 20px; 
+}
+.navsec img{
+width: 3.599rem;
+height: 2.700rem;
+padding: 5px 0px;
+margin-left: 0.7rem;
+margin-right: 0.5rem;
+}
+.butn{
+  margin-left: 0.456rem;
+}
+.hero{
+  margin-top: 6.625rem;
+  padding: 1.25rem;
+  width: 37.5rem;
+  margin-left: 1.375rem;
+}
+.hero h1{
+font-size: 46px;
+text-transform: uppercase;
+}
+.brands{
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  padding: 3rem 0;
+  /* margin-top: 2.5rem;
+  margin-left: 20.625rem;
+  margin-right: auto;
+  margin-bottom: 2.5rem; */
+  gap: 3.125rem;
+  
+}
+.handy{
+  width: 400px;
+  margin-top: 6.25rem;
+  margin-left: 0.875rem;
+  
+}
+.hand-section-phone{
+  height: 28.125rem;
+  width: 23.968rem;
+  padding-right: 6.25rem;
+  margin-left: 23rem;
+
+}
+
+.hand-section .hand-section-phone{
+ position: absolute;
+ top: -4.375rem;
+ left: 0.625rem;
+}
+  .navbar a{
+    margin-right: 0.625rem;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    position: relative;
+    
+  }
+.hori{
+  margin: 0.5rem 0.938rem 0rem 0.313rem;
+  width: 3.75rem;
+}
+  .navbar a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--shade-colour);
+    position: absolute;
+    transition: var(--transition-one);
+    bottom: -0.563rem;
+  }
+  .navbar a:hover{
+    font-weight: 700;
+    color: var(--shade-colour);
+    transition: var(--transition-one);
+    transform: translateY(-0.625rem);  
+  }
+  .navbar a:hover::before{
+    width: 100%;
+  }
+  .navbar a.active::before{
+    width: 100%;
+  }
+  
+  button{
+    padding: 0.313rem;
+    width: 6.25rem;
+    margin-right: 0.625rem;
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0.125rem solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+.butn{
+    margin-left: 7.5rem;
+  }
+  .nav-line {
+    width: 16.25rem;
+   }
+   .hand-section-phone{
+    height: 28.125rem;
+    padding-right: 0.25rem;
+  }
+  .hand-section{
+    margin-left: 10px;
+  }
+  .hand-section .hand-section-phone{
+   position: absolute;
+   top: -4.375rem;
+  }
 }
 @media (max-width: 425px) {
   /* Styles go here*/
+  body{
+    margin: 0px;
+  }
+.navsec{
+  display: flex;
+  gap: 10px; 
+  padding: 10px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.navsec img{
+width: 3.0rem;
+height: 2.700rem;
+padding: 5px 0px;
+margin-left: 0.7rem;
+margin-right: 0.5rem;
+}
+.butn{
+  margin-left: 0.456rem;
+}
+.hero{
+  margin-top: 5.625rem;
+  padding: 5px;
+  height: 2.756rem;
+  width: 290px;
+  margin-left: 1.375rem;
+}
+.hero h1{
+font-size: 36px;
+text-transform: uppercase;
+}
+
+.handy{
+  width: 290px;
+  margin-top: 0.25rem;
+  margin-left: 0.875rem;
+  
+}
+.hand-section{
+  width: auto;
+  height: 600px;
+}
+.hand-section-phone{
+  height: 28.125rem;
+  width: 18.968rem;
+  padding-right: 6.25rem;
+  margin-left: 0rem;
+  margin-top: 340px;
+
+}
+
+.hand-section .hand-section-phone{
+ position: absolute;
+ top: -4.375rem;
+ left: 0.625rem;
+}
+  .navbar a{
+    margin-right: 0.625rem;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    position: relative;
+    
+  }
+.hori{
+  margin: 0.5rem 0.938rem 0rem 0.313rem;
+  width: 3.75rem;
+}
+  .navbar a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--shade-colour);
+    position: absolute;
+    transition: var(--transition-one);
+    bottom: -0.563rem;
+  }
+  .navbar a:hover{
+    font-weight: 700;
+    color: var(--shade-colour);
+    transition: var(--transition-one);
+    transform: translateY(-0.625rem);  
+  }
+  .navbar a:hover::before{
+    width: 100%;
+  }
+  .navbar a.active::before{
+    width: 100%;
+  }
+  
+  button{
+    padding: 0.313rem;
+    width: 6.25rem;
+    margin-right: 0.625rem;
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0.125rem solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+.butn{
+    margin-left: 1.5rem;
+  }
+  .nav-line {
+    width: 0px;
+   }
+   .features{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0b0b0b;
+  }
+  .feature{
+   margin-top: 3.125rem;
+   padding: 0rem 1.875rem;
+   margin-left: auto;
+   margin-right: auto;
+   width: 22rem;
+  }
+  .hand-section{
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b0b0b;
+    color: white;
+    position: relative;
+    height: 45.75rem;
+    width: auto;
+  }
+   .hand-section-phone{
+    height: 28.125rem;
+    padding-right: 0.25rem;
+
+  }
+  .horz{
+    margin: 10px 0px 0px 0px;
+    width: 2.6rem;
+  }
+
+  .brands{
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    padding: 1rem 0;
+    /* margin-top: 2.5rem;
+    margin-left: 20.625rem;
+    margin-right: auto;
+    margin-bottom: 2.5rem; */
+    gap: 1.125rem;
+  }
+  .brands i{
+    font-size: 1.813rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    
+  }
+  .links {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 10px;
+    padding: 0px 5px;
+    gap: 1.25rem;
+  }
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.225rem;
+  align-items: center;
+}
+
 }
