@@ -829,3 +829,116 @@ text-transform: uppercase;
 }
 
 }
+@media (max-width: 1284px){
+  o here*/
+body{
+    margin: 0px;
+}
+  .navsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem; 
+}
+.brands{
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  padding: 3rem 0;
+  /* margin-top: 2.5rem;
+  margin-left: 20.625rem;
+  margin-right: auto;
+  margin-bottom: 2.5rem; */
+  gap: 3.125rem;
+  
+}
+.handy{
+  width: 25rem;
+  margin-top: 6.25rem;
+  margin-left: 6.875rem;
+  
+}
+.hand-section-phone{
+  height: 28.125rem;
+  padding-right: 2.25rem;
+}
+.hand-section .hand-section-phone{
+  position: absolute;
+  top: -4.375rem;
+  left: 20.625rem;
+ }
+
+  .navbar a{
+    margin-right: 0.625rem;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    position: relative;
+    
+  }
+.hori{
+  margin: 0.5rem 0.938rem 0rem 0.313rem;
+  width: 3.75rem;
+}
+  .navbar a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--shade-colour);
+    position: absolute;
+    transition: var(--transition-one);
+    bottom: -0.563rem;
+  }
+  .navbar a:hover{
+    font-weight: 700;
+    color: var(--shade-colour);
+    transition: var(--transition-one);
+    transform: translateY(-0.625rem);  
+  }
+  .navbar a:hover::before{
+    width: 100%;
+  }
+  .navbar a.active::before{
+    width: 100%;
+  }
+  .navsec img{
+    width: 8.125rem;
+    height: 3.75rem;
+    padding: 0.313rem 0.625rem;
+    margin-left: 0.938rem;
+    margin-right: 5rem;
+    overflow: hidden;
+  }
+  button{
+    padding: 0.313rem;
+    width: 6.25rem;
+    margin-right: 0.625rem;
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0.125rem solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+.butn{
+    margin-left: 7.5rem;
+  }
+  .nav-line {
+    width: 16.25rem;
+   }
+   .hand-section-phone{
+    height: 28.125rem;
+    padding-right: 0.25rem;
+    overflow: hidden;
+  
+  }
+  .hand-section .hand-section-phone{
+   position: absolute;
+   top: -4.375rem;
+   left: 40.625rem;
+   overflow: hidden;
+  }
+}
