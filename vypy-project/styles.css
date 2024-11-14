@@ -11,7 +11,7 @@
     --choc-colour: #7B3F00;
     --grey-colour: #c0c0c0;
     --black: #000000;
-    --transition-one: all 0.5s ease-in-out;
+    --transition-one: all 0.7s ease-in-out;
     --transition-two: all 0.7s ease-in-out;
   }
 body{
@@ -829,46 +829,64 @@ text-transform: uppercase;
 }
 
 }
-@media (max-width: 1284px){
-  o here*/
-body{
+@media (max-width: 480px){
+  body{
     margin: 0px;
+  }
+.navsec{
+  display: flex;
+  gap: 10px; 
+  padding: 10px;
+  margin-left: 10px;
 }
-  .navsec{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem; 
+.navsec img{
+width: 3.999rem;
+height: 2.700rem;
+padding: 5px 0px;
+margin-left: 0.7rem;
+margin-right: 0.5rem;
 }
-.brands{
-  width: 100%;
-  margin: 0;
-  justify-content: center;
-  padding: 3rem 0;
-  /* margin-top: 2.5rem;
-  margin-left: 20.625rem;
-  margin-right: auto;
-  margin-bottom: 2.5rem; */
-  gap: 3.125rem;
-  
+.butn{
+  margin-left: 0.026rem;
 }
+.hero{
+  margin-top: 5.625rem;
+  padding: 5px;
+  height: 2.756rem;
+  width: 400px;
+  margin-left: 1.375rem;
+}
+.hero h1{
+font-size: 46px;
+text-transform: uppercase;
+}
+
 .handy{
-  width: 25rem;
-  margin-top: 6.25rem;
-  margin-left: 6.875rem;
+  width: 290px;
+  margin-top: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
   
+}
+.hand-section{
+  width: auto;
+
+  height: 600px;
 }
 .hand-section-phone{
   height: 28.125rem;
-  padding-right: 2.25rem;
-}
-.hand-section .hand-section-phone{
-  position: absolute;
-  top: -4.375rem;
-  left: 20.625rem;
- }
+  width: 18.968rem;
+  padding-right: 6.25rem;
+  margin-left: 0rem;
+  margin-top: 340px;
 
+}
+
+.hand-section .hand-section-phone{
+ position: absolute;
+ top: -4.375rem;
+ left: 0.625rem;
+}
   .navbar a{
     margin-right: 0.625rem;
     text-decoration: none;
@@ -904,41 +922,92 @@ body{
   .navbar a.active::before{
     width: 100%;
   }
-  .navsec img{
-    width: 8.125rem;
-    height: 3.75rem;
-    padding: 0.313rem 0.625rem;
-    margin-left: 0.938rem;
-    margin-right: 5rem;
-    overflow: hidden;
-  }
+  
   button{
     padding: 0.313rem;
-    width: 6.25rem;
-    margin-right: 0.625rem;
+    width: 4.25rem;
+    margin-right: 0.399rem;
     background-color: transparent;
     font-weight: 600;
     text-transform: uppercase;
     border: 0.125rem solid white;
     border-radius: 0.5rem;
     cursor: pointer;
+    margin-top: 30px;
   }
 .butn{
-    margin-left: 7.5rem;
+    margin-left: 0.5rem;
   }
   .nav-line {
-    width: 16.25rem;
+    width: 252px;
    }
+   .features{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0b0b0b;
+  }
+  .feature{
+   margin-top: 3.125rem;
+   padding: 0rem 1.875rem;
+   margin-left: auto;
+   margin-right: auto;
+   width: 22rem;
+  }
+  .hand-section{
+    margin-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b0b0b;
+    color: white;
+    position: relative;
+    height: 45.75rem;
+    width: auto;
+  }
    .hand-section-phone{
     height: 28.125rem;
     padding-right: 0.25rem;
-    overflow: hidden;
-  
+
   }
-  .hand-section .hand-section-phone{
-   position: absolute;
-   top: -4.375rem;
-   left: 40.625rem;
-   overflow: hidden;
+  .horz{
+    margin: 10px 0px 0px 0px;
+    width: 2.6rem;
   }
+
+  .brands{
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    padding: 1rem 0;
+    /* margin-top: 2.5rem;
+    margin-left: 20.625rem;
+    margin-right: auto;
+    margin-bottom: 2.5rem; */
+    gap: 1.125rem;
+  }
+  .brands i{
+    font-size: 1.813rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    
+  }
+  .links {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 10px;
+    padding: 0px 5px;
+    gap: 1.25rem;
+  }
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.225rem;
+  align-items: center;
+}
 }

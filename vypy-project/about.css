@@ -261,15 +261,85 @@ color: white;
         height: 50vh;
     }
 } 
-@media (max-width: 1284px){
-    .hero{
-        padding-top: 130px;
-    }
-    .image-box{
-        margin-top: 100px;
+@media (max-width: 480px){
+    .about-hero-contents{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         width: 100%;
-        height: 50vh;
-    }
+        gap: 30px;
+        padding: 10px 15px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 10px;
+    width: 100%;
+    background-color: #0b0b0b;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.skill-text{
+    display: flex;
+    width: 100%;
+    padding-left: 5px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.imagebox-cover{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.3)), url(https://www.nationaldefensemagazine.org/-/media/sites/magazine/2022/12/smartshooter-smash-2000l-rgb.jpg);
+    height: 460px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagebox-content{
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    color: white;
+    gap: 15px;
+    align-items: center;
+    padding: 0px 30px;
+    padding-top: 150px;
+}
+.imagebox-content button{
+    width: 120px;
+    border-radius: 50px;
+    height: 30px;
+    color: black;
+    background-color: #fff;
+    margin-top: 0px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding: 0px 15px;
+    color: white;
+    margin-top: 70px;
+}
+.foot-content{
+    width: auto;
+}
+.foot-two-details{
+    justify-content: none;
+    margin-top: 20px;
+}
+.two-details{
+    display: flex;
+    gap: 10px;
+}
 }
 @media (max-width: 1440px){
     .hero{
@@ -310,6 +380,10 @@ color: white;
     width: 100%;
     padding-left: 5px;
     justify-content: center;
+}
+.year{
+    display: flex;
+    flex-direction: row;
 }
 .imagebox-cover{
     background-image: linear-gradient(
